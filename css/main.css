@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  background: #250000;
+  margin: 0;
+  font-family: 'PT Sans';
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+
+}
+
+
+.navbar . container {
+  display: grid;
+  grid-template-columns: 180px auto;
+  justify-content:unset;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  position: unset;
+  height:auto;
+  width: 100%;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+
+}
+
+a{
+  color: #c85456;
+  text-decoration: none;
+  list-style-type:none;
+  display: block;
+  padding: .5em;
+  font-size: 1em;
+  text-align: right;
+
+}
+
+a:hover {
+  font-weight: bold;
+  color: #e6c1c2;
+}
+
+ul.primary-nav {
+  margin: 0;
+}
+
+.logo{
+  text-decoration: none;
+  font-weight: bold;
+  color:#c85456;
+  font-size: 1.2em;
+}
+
+span {
+  color: #250000;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: left;
+}
+
+.subhead{
+  text-transform:uppercase;
+  font-weight: bold;
+  color: #e6c1c2;
+  letter-spacing: .3em;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height:1.3em;
+  color: #e6c1c2;
+  margin-top:.2em;
+}
+
+.hero-img{
+  width:70%
+  margin-top: 3em;
+}
+
+.about {
+  margin: 0;
+  padding-left: .1em;
+  display: grid;
+  background-color: #89acb8;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.second-section{
+  font-size: 2.5em;
+  line-height:1.3em;
+  color: #e6c1c2;
+  margin-top:.2em;
+  background: #250000;
+  background: url(/assets/light.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
